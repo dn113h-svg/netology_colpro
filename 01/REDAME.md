@@ -4,9 +4,9 @@
 
 # Задание 1. Yandex Cloud
 
-![1](./img/01.png)
-![1](./img/02.png)
-![1](./img/03.png)
-![1](./img/04.png)
+![1](./scr/01.png)
+![1](./scr/02.png)
+![1](./scr/03.png)
+![1](./scr/04.png)
 
 #
