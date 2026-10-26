@@ -49,13 +49,7 @@ resource "yandex_compute_instance_group" "lamp" {
         cat > /var/www/html/index.html <<'HTML'
         <!doctype html>
         <html>
-        <head>
-          <meta charset="utf-8">
-          <title>LAMP Instance Group</title>
-        </head>
         <body>
-          <h1>LAMP Instance Group</h1>
-          <p>Host: $(hostname)</p>
           <img src="https://storage.yandexcloud.net/${yandex_storage_bucket.images.bucket}/${yandex_storage_object.image.key}" alt="Object Storage image">
         </body>
         </html>
